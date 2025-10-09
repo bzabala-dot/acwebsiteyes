@@ -1,0 +1,30 @@
+
+footer{
+    position: relative;
+    top: 500px;
+}
+
+.social_icons{
+    display: flex;
+}
+
+
+
+.facebook {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    display: inline-block;
+	background: url('../images/icon.png') no-repeat -21px -23px;
+	width: 102px;
+	height: 101px;
+    border-radius: 8px;
+    
+    transition: filter 0.2s;
+    transform: scale(0.4);
+    transform-origin: top left;
+}
+
+.facebook:hover {
+    filter: brightness(1.2) sepia(1) hue-rotate(190deg) saturate(5);
+}
