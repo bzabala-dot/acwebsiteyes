@@ -8,18 +8,20 @@ footer{
     display: flex;
     background-color: #f8f5f0 ;
     padding: 10px 30px;
-     flex-direction: column;
+    flex-direction: column;
     align-items: start;
     justify-content: start;
     gap: 0px;
-    font-family: Bebas Neue, sans-serif;
 }
 
 footer h2{
-  font-family: "Instrument Serif", serif;
+    margin-bottom: 0px;
+    font-family: "Instrument Serif", serif;
 }
 
 footer h3{
+    margin-top: 0px;
+    margin-bottom: 4px;
     font-family: Bebas Neue, sans-serif;
 }
 
@@ -33,10 +35,6 @@ footer h3{
 
 
 .facebook {
-    position: relative;
-    top: 50px;
-    left: 20px;
-    display: inline-block;
 	background: url('../images/icon.png') no-repeat -21px -23px;
 	width: 102px;
 	height: 101px;
@@ -47,5 +45,5 @@ footer h3{
 }
 
 .facebook:hover {
-    filter: brightness(1.2) sepia(1) hue-rotate(190deg) saturate(5);
+    filter: brightness(1.5) sepia(1) hue-rotate(190deg) saturate(5);
 }
