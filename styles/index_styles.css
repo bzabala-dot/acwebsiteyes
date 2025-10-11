@@ -200,7 +200,7 @@ body::-webkit-scrollbar{
     background-image: linear-gradient(rgba(255, 215, 0, 0.3), rgba(255, 215, 0, 0.3)),
     url('../images/jersey.png');
     background-size: cover;
-    background-position: center;
+    background-position: 0% 65%;
     opacity: 0.4;
     transition: opacity 0.3s;
 }
