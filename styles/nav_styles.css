@@ -60,4 +60,39 @@ body{
     color: #ffcc00;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Responsive layout for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .menu-toggle {
+        display: block; /* show the hamburger */
+    }
+
+    .nav_links {
+        display: none; /* hide menu by default */
+        flex-direction: column;
+        width: 100%;
+        background-color: #f8f5f0;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .nav_links li {
+        margin: 10px 0;
+    }
+
+    /* When navbar is active (after clicking hamburger) */
+    .navbar.active .nav_links {
+        display: flex;
+    }
+}
+
 
