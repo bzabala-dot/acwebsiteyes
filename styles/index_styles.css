@@ -1,4 +1,16 @@
 
+@keyframes move {
+    from {
+        opacity: 0;
+        scale: 0.7;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+
+}
+
 body{
     overflow-x: hidden;
     margin: 0;
@@ -54,6 +66,13 @@ body::-webkit-scrollbar{
     margin: 0;
     color: #2b2b2b;      
 }
+
+.viren, .solen, .luxen {
+    animation: move linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
 
 
 .viren{
@@ -303,7 +322,9 @@ body::-webkit-scrollbar{
         left: 0;
         padding: 30px 0;
         outline: 1px dashed blue;
-        transform: translateX(0%)
+        transform: translateX(0%);
+        animation: move 0.7s ease-in-out both;
+
     }
 
     .viren::before, .solen::before, .luxen::before {
@@ -364,6 +385,7 @@ body::-webkit-scrollbar{
         height: auto;
         padding: 40px 0;
         margin: 40px auto 0 auto;
+        background-position: center;
     }
 
     .jersey h1 {
