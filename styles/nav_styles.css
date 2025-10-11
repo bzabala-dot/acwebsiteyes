@@ -62,6 +62,11 @@ body{
     color: #ffcc00;
 }
 
+.nav_links a.current {
+    color: gray;      /* example: red text */
+    font-weight: bold; /* or underline, background, etc. */
+}
+
 .menu-toggle {
   display: none;
   font-size: 32px;
