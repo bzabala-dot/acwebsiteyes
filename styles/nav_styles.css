@@ -84,7 +84,7 @@ body{
     display: block;
     font-size: 32px;
     cursor: pointer;
-    color: black;
+    color: gray;
     z-index: 2000;
 }
 

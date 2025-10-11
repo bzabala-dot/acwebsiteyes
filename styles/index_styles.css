@@ -413,7 +413,7 @@ body::-webkit-scrollbar{
         width: 90%;
         margin-top: 60px;
         min-height: 250px;
-        background-position: 0 20%;
+        background-position: center 20%;
         background-size: cover;
         opacity: 0.8;
     }
