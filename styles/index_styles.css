@@ -409,13 +409,15 @@ body::-webkit-scrollbar{
         height: 28px;
     }
 
-    .cover {
-        width: 90%;
-        margin-top: 60px;
-        min-height: 250px;
-        background-size: cover;
-        opacity: 0.8;
-    }
+.cover {
+    width: 90%;                
+    margin: 60px auto 0 auto;  
+    min-height: 250px;
+    background-size: cover;     
+    background-position: center center;
+    background-repeat: no-repeat;   
+    opacity: 0.8;
+}
 
 
 }
