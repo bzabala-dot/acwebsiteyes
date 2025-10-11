@@ -21,8 +21,9 @@ body{
 }
 
 .logo img{
-    width: 80px;
+    width: 60px;
     height: auto;
+    margin-right: 8px;
 }
 
 .logo h1 {
@@ -78,7 +79,7 @@ body{
 @media screen and (max-width: 768px) {
 
 .logo img {
-    width: 80px;
+    width: 60px;
     height: auto;
 }
 
