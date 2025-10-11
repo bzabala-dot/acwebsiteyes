@@ -1,3 +1,4 @@
+
 body{
     overflow-x: hidden;
     margin: 0;
@@ -232,4 +233,144 @@ body::-webkit-scrollbar{
     opacity:1;
 }
 
+@media screen and (max-width: 768px) {
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .open {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px 10px;
+        gap: 20px;
+    }
+
+    .open img {
+        width: 400px;
+        height: auto;
+    }
+
+    .titles {
+        align-items: center;
+    }
+
+    #first {
+        font-size: 55px;
+        letter-spacing: 2px;
+    }
+
+    #second {
+        font-size: 32px;
+        letter-spacing: 1.5px;
+    }
+
+    .titles h1, .titles h2 {
+        word-wrap: break-word;
+        max-width: 90vw;
+    }
+
+    .houses {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        width: 100%;
+        max-width: 1200px;
+        margin: 40px auto;     /* centers the whole .houses container */
+        box-sizing: border-box;
+        padding: 0 20px;
+        outline: 2px dashed red;
+    }
+
+    .viren, .solen, .luxen {
+        overflow: hidden;
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        left: 0;
+        padding: 30px 0;
+        outline: 1px dashed blue;
+        transform: translateX(0%)
+    }
+
+    .viren::before, .solen::before, .luxen::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+    }
+
+    
+
+    .viren::before { 
+        background-image: url('../images/VIREN_MASCOT_2.0.PNG'); 
+        background-position: 0% 20%;
+    }
+    .solen::before { 
+        background-image: url('../images/SOLEM-Mascot.png'); 
+        background-position: 0% 20%;
+    }
+    .luxen::before { 
+        background-image: url('../images/LUXEN MASCOT 3.0.png'); 
+        background-position: 0% 25%;
+    }
+
+    .viren img, .solen img, .luxen img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 0 auto 10px auto;
+        display: block;
+        transform: none;
+    }
+
+    .viren h1, .solen h1, .luxen h1 {
+        position: static;
+        transform: none;
+        font-size: 50px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .viren::before, .solen::before, .luxen::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.2;
+        z-index: 0;
+    }
+
+    .jersey {
+        width: 80%;
+        height: auto;
+        padding: 40px 0;
+        margin: 40px auto 0 auto;
+    }
+
+    .jersey h1 {
+        font-size: 60px;
+    }
+
+    .jersey button {
+        font-size: 14px;
+        width: 100px;
+        height: 28px;
+    }
+}
 
