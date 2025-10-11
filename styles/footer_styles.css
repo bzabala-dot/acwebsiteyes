@@ -1,11 +1,33 @@
 
 footer{
-    position: relative;
-    top: 500px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    margin-top: 100px;
+    display: flex;
+    background-color: #f8f5f0 ;
+    padding: 10px 30px;
+     flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0px;
+    font-family: Bebas Neue, sans-serif;
+}
+
+footer h2{
+  font-family: "Instrument Serif", serif;
+}
+
+footer h3{
+    font-family: Bebas Neue, sans-serif;
 }
 
 .social_icons{
     display: flex;
+    gap: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -19,7 +41,6 @@ footer{
 	width: 102px;
 	height: 101px;
     border-radius: 8px;
-    
     transition: filter 0.2s;
     transform: scale(0.4);
     transform-origin: top left;
