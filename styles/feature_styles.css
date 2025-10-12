@@ -103,7 +103,7 @@ main {
     }
 
     .cards-container{
-        width: 100%;
+        width: 90%;
         padding: 0 10px;
         gap: 20px;
     }
