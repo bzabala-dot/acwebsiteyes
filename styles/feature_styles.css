@@ -94,7 +94,7 @@ main {
     flex-direction: column;
 }
 
-@media  screen and (max-width: 480px) {
+@media  screen and (max-width: 480px){
     main {
         flex: none;               /* stops stretching main */
         padding: 10px 10px;
@@ -119,23 +119,55 @@ main {
         width: 80%;               /* almost full screen */
         max-width: 85%;
         height: auto;
-        aspect-ratio: 280 / 380;  /* keep card proportion */
     }
 
-    .flip-card-front, .flip-card-back {
-        width: 80%;
+      @media screen and (max-width: 480px) {
+    main {
+        flex: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px;
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .cards-container {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .card-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .flip-card {
+        width: 90%;
+        max-width: 350px;
+        height: auto;
+        aspect-ratio: 280 / 380;
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        width: 100%;
+        height: 100%;
     }
 
     .cards-title {
+        text-align: center;
         margin: 10px 0;
     }
 }
-
-@media screen and (max-width: 480px) {
-    .flip-card {
-        width: 90%;
-    }
 }
-
-
-
