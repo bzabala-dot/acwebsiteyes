@@ -94,7 +94,7 @@ main {
     flex-direction: column;
 }
 
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 480px) {
     main {
         flex: none;               /* stops stretching main */
         padding: 20px 10px;
