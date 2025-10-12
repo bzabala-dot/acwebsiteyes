@@ -97,7 +97,6 @@ main {
 @media  screen and (max-width: 480px) {
     main {
         flex: none;               /* stops stretching main */
-        padding: 20px 10px;
         flex-direction: column;   /* stack content vertically */
         align-items: center;      /* center content */
     }
