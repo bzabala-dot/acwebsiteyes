@@ -115,7 +115,7 @@ main {
     }
 
     .flip-card {
-        width: 100%;               /* almost full screen */
+        width: 90%;               /* almost full screen */
         max-width: 85%;
         height: auto;
         aspect-ratio: 280 / 380;  /* keep card proportion */
