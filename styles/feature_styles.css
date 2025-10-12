@@ -121,7 +121,7 @@ main {
         height: auto;
     }
 
-      @media screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
     main {
         flex: none;
         flex-direction: column;
@@ -134,7 +134,7 @@ main {
     }
 
     .cards-container {
-        width: 100%;
+        width: 90%;
         max-width: 500px;
         margin: 0 auto;
         display: flex;
