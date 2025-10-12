@@ -96,10 +96,16 @@ main {
 
 @media  screen and (max-width: 480px) {
     main {
-        justify-content: flex-start;
         flex: none;               /* stops stretching main */
+        padding: 0;
         flex-direction: column;   /* stack content vertically */
         align-items: center;      /* center content */
+    }
+
+    .cards-container{
+        width: 100%;
+        padding: 0 10px;
+        gap: 20px;
     }
 
     .card-section {
@@ -109,32 +115,24 @@ main {
     }
 
     .flip-card {
-        width: 90%;               /* almost full screen */
-        max-width: 300px;
+        width: 100%;               /* almost full screen */
+        max-width: 95%;
         height: auto;
         aspect-ratio: 280 / 380;  /* keep card proportion */
     }
 
-    .flip-card-back {
-        font-size: 0.9rem;
+    .flip-card-front, .flip-card-back {
+        width: 100%;
     }
 
     .cards-title {
-        font-size: 1.5rem;
+        margin: 10px 0;
     }
 }
 
 @media screen and (max-width: 480px) {
     .flip-card {
-        width: 95%;
-    }
-
-    .flip-card-back {
-        font-size: 0.85rem;
-    }
-
-    .cards-title {
-        font-size: 1.3rem;
+        width: 98%;
     }
 }
 
