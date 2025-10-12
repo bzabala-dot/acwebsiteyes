@@ -94,5 +94,49 @@ main {
     flex-direction: column;
 }
 
+@media  screen and (max-width: 768px) {
+    main {
+        flex: none;               /* stops stretching main */
+        padding: 20px 10px;
+        flex-direction: column;   /* stack content vertically */
+        align-items: center;      /* center content */
+    }
+
+    .card-section {
+        flex-direction: column;   /* stack cards vertically */
+        align-items: center;
+        gap: 20px;
+    }
+
+    .flip-card {
+        width: 90%;               /* almost full screen */
+        max-width: 300px;
+        height: auto;
+        aspect-ratio: 280 / 380;  /* keep card proportion */
+    }
+
+    .flip-card-back {
+        font-size: 0.9rem;
+    }
+
+    .cards-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .flip-card {
+        width: 95%;
+    }
+
+    .flip-card-back {
+        font-size: 0.85rem;
+    }
+
+    .cards-title {
+        font-size: 1.3rem;
+    }
+}
+
 
 
