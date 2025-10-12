@@ -25,7 +25,7 @@ main {
 .cards-container {
     flex-direction: column;  /* stack heading and cards vertically */
     gap: 30px;               /* space between heading and cards */
-    padding: 40px 20px;      /* optional top/bottom spacing */
+    padding: 10px 0;      /* optional top/bottom spacing */
 }
 
 .cards-title {
@@ -96,6 +96,7 @@ main {
 
 @media  screen and (max-width: 480px) {
     main {
+        justify-content: flex-start;
         flex: none;               /* stops stretching main */
         flex-direction: column;   /* stack content vertically */
         align-items: center;      /* center content */
