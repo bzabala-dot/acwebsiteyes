@@ -1,28 +1,27 @@
-
-footer{
+#container{
     margin: 0;
     padding: 0;
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
     z-index: 10;
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     background-color: #f8f5f0 ;
-    padding: 10px 30px;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
+    align-items: center;
+    justify-content: center;
     gap: 0px;
+    font-family: Bebas Neue, sans-serif;
 }
 
 footer h2{
-    margin-bottom: 0px;
-    font-family: "Instrument Serif", serif;
+  font-family: "Instrument Serif", serif;
+  margin: 2px;
+  margin-top: -20px;
 }
 
 footer h3{
-    margin-top: 0px;
-    margin-bottom: 4px;
     font-family: Bebas Neue, sans-serif;
+    margin: 2px;
 }
 
 .social_icons{
@@ -32,7 +31,26 @@ footer h3{
     padding: 0;
 }
 
-
+.facebook {
+    margin: 0;
+    margin-top: -10px;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    left: 33px;
+    display: inline-block;
+	background: url('../images/icon.png') no-repeat -21px -23px;
+	width: 102px;
+	height: 101px;
+    border-radius: 8px;
+    transition: filter 0.2s;
+    transform: scale(0.3);
+    transform-origin: top left;
+}
+ 
+.facebook:hover {
+    filter: brightness(1.2) sepia(1) hue-rotate(190deg) saturate(5);
+}
 
 .facebook {
 	background: url('../images/icon.png') no-repeat -21px -23px;
@@ -40,7 +58,7 @@ footer h3{
 	height: 101px;
     border-radius: 8px;
     transition: filter 0.2s;
-    transform: scale(0.4);
+    transform: scale(0.35);
     transform-origin: top left;
 }
 

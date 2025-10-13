@@ -95,7 +95,7 @@ body::-webkit-scrollbar{
   background-image: url('../images/VIREN_MASCOT_2.0.PNG');
   background-size: cover;
   background-position: 0% 20%;
-  opacity: 0.2; 
+  opacity: 0.35; 
   z-index: 0;
 }
 
@@ -138,7 +138,7 @@ body::-webkit-scrollbar{
     background-image: url('../images/SOLEM-Mascot.png');
     background-size: cover;
     background-position: 0% 20%;
-    opacity: 0.2; 
+    opacity: 0.3; 
     z-index: 0;
 }
 
@@ -182,7 +182,7 @@ body::-webkit-scrollbar{
   background-image: url('../images/LUXEN\ MASCOT\ 3.0.png');
   background-size: cover;
   background-position: 0% 25%;
-  opacity: 0.2; 
+  opacity: 0.4; 
   z-index: 0;
 }
 
@@ -255,10 +255,10 @@ body::-webkit-scrollbar{
 
 .cover{
     margin: auto;
-    margin-top: 150px;
+    margin-top: 70px;
     background: url('../images/cover.jpg') center center / cover no-repeat;
     background-position: center 17%;
-    opacity: 0.8;
+    opacity: 1;
     background-color: black; /* optional — fills the empty space */
     position: relative;
     width: 90%;
