@@ -68,13 +68,45 @@ body::-webkit-scrollbar{
     color: #2b2b2b;      
 }
 
-.viren, .solen, .luxen {
+.viren, .solen, .luxen{
     animation: move linear;
     animation-timeline: view();
     animation-range: entry 0;
 }
 
+.viren:hover  .viren_logo {
+    transform: scale(0.5) translate(-130px, -80px);
+    transition-duration: 0.6s;
+}
 
+.viren:hover  .VIREN {
+    transform: scale(0.6) translate(-980px, 0px);
+    transition-duration: 0.6s;
+}
+
+.solen:hover  .solen_logo {
+    transform: scale(0.5) translate(130px, -80px);
+    transition-duration: 0.6s;
+}
+
+.solen:hover  .SOLEN {
+    transform: scale(0.6) translate(680px, 0px);
+    transition-duration: 0.6s;
+}
+
+.luxen:hover  .luxen_logo {
+    transform: scale(0.5) translate(-130px, -80px);
+    transition-duration: 0.6s;
+}
+
+.luxen:hover  .LUXEN {
+    transform: scale(0.6) translate(-990px, 0px);
+    transition-duration: 0.6s;
+}
+
+.viren_logo, .VIREN, .solen_logo, .SOLEN, .luxen_logo, .LUXEN {
+    transition-duration: 0.6s;
+}
 
 .viren{
     position: static;
