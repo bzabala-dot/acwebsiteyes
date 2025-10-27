@@ -1,0 +1,123 @@
+.schedule{
+    display: flex;
+}
+
+.DAY_1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  /* stack heading and cards vertically */
+    gap: 30px;               /* space between heading and cards */
+    padding: 10px 0;      /* optional top/bottom spacing */
+}
+
+.title {
+    text-align: center;
+    font-family: "Instrument Serif", serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.day1 {
+    width: 80%;
+    height: 300px;
+    border: 2px solid black;
+    background-image: url("../images/jersey.png");
+    background-size: cover;
+}
+
+.DAY_2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  /* stack heading and cards vertically */
+    gap: 30px;               /* space between heading and cards */
+    padding: 10px 0;      /* optional top/bottom spacing */
+}
+
+.day2 {
+    width: 80%;
+    height: 300px;
+    border: 2px solid black;
+    background-image: url("../images/jersey.png");
+    background-size: cover;
+}
+
+.schedule1{
+    display: flex;
+    justify-content: center;
+}
+
+.DAY_3 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  /* stack heading and cards vertically */
+    gap: 30px;               /* space between heading and cards */
+    padding: 10px 0;      /* optional top/bottom spacing */
+}
+
+.day3 {
+    width: 80%;
+    height: 300px;
+    border: 2px solid black;
+    background-image: url("../images/jersey.png");
+    background-size: cover;
+}
+
+.schedule2{
+    display: flex;
+    justify-content: center;
+}
+
+.DAY_4 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  /* stack heading and cards vertically */
+    gap: 30px;               /* space between heading and cards */
+    padding: 10px 0;      /* optional top/bottom spacing */
+}
+
+.day4 {
+    width: 80%;
+    height: 300px;
+    border: 2px solid black;
+    background-image: url("../images/jersey.png");
+    background-size: cover;
+}
+
+.DAY_5 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  /* stack heading and cards vertically */
+    gap: 30px;               /* space between heading and cards */
+    padding: 10px 0;      /* optional top/bottom spacing */
+}
+
+.day5 {
+    width: 80%;
+    height: 300px;
+    border: 2px solid black;
+    background-image: url("../images/jersey.png");
+    background-size: cover;
+}
+
+@media screen  and (max-width: 768px){
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .schedule, .schedule1, .schedule2{
+        display: block;
+    }
+
+    .DAY_1, .DAY_2, .DAY_3, .DAY_4, .DAY_5{
+        width: 100%;
+    }
+    
+}
