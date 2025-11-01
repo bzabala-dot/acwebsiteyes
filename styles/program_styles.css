@@ -22,9 +22,9 @@
 
 .opening_image {
     width: 80%;
-    height: 300px;
+    height:900px;
     border: 2px solid black;
-    background-image: url("../images/jersey.png");
+    background-image: url("../images/openingprog.png");
     background-size: cover;
 }
 
@@ -39,9 +39,9 @@
 
 .bbpisay_image {
     width: 80%;
-    height: 300px;
+    height: 900px;
     border: 2px solid black;
-    background-image: url("../images/jersey.png");
+    background-image: url("../images/bbpisayprog.png");
     background-size: cover;
 }
 
@@ -61,9 +61,9 @@
 
 .closing_image {
     width: 80%;
-    height: 300px;
+    height: 900px;
     border: 2px solid black;
-    background-image: url("../images/jersey.png");
+    background-image: url("../images/closingprog.png");
     background-size: cover;
 }
 
