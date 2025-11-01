@@ -20,6 +20,8 @@ main {
     justify-content: center;
     align-items: center;
     margin: 0;
+    padding-bottom: 100px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .cards-container {
@@ -94,7 +96,118 @@ main {
     flex-direction: column;
 }
 
+.title_box {
+    background-color:  rgb(255, 255, 229);
+    padding: 50px;
+}
+
+.jersey_title {
+    text-align: center;
+    font-family: "Instrument Serif", serif;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.jerseys{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(255, 255, 229);
+}
+
+.viren {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  /* stack heading and cards vertically */
+    gap: 30px;               /* space between heading and cards */
+    padding: 10px 0;      /* optional top/bottom spacing */
+    margin-bottom: 50px;     
+}
+
+.title {
+    text-align: center;
+    font-family: "Instrument Serif", serif;
+    font-size: 2rem;
+    margin: 0;
+    width: 100%;
+}
+
+#v {
+    background-image: url("../images/VIREN_MASCOT_2.0.PNG"); 
+    background-position: 0% 20%;
+    background-size: cover;
+}
+
+#s {
+    background-image: url("../images/SOLEM-Mascot.png"); 
+    background-position: 0% 20%;
+    background-size: cover;
+}
+
+#l {
+    background-image: url("../images/LUXEN MASCOT 3.0.png"); 
+    background-position: 0% 22%;
+    background-size: cover; 
+}
+.viren_jersey {
+    width: 80%;
+    height: 850px;
+    border: 2px solid black;
+    background-image: url("../images/virenjersey.png");
+    background-size: cover;
+}
+
+.jerseys1 {
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(255, 255, 229);
+}
+
+.solen {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  /* stack heading and cards vertically */
+    gap: 30px;               /* space between heading and cards */
+    padding: 10px 0;      /* optional top/bottom spacing */
+    margin-bottom: 50px;  
+}
+
+.solen_jersey {
+    width: 80%;
+    height: 850px;
+    border: 2px solid black;
+    background-image: url("../images/solenjersey.png");
+    background-size: cover;
+}
+
+.jerseys2{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(255, 255, 229);
+}
+
+.luxen {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  /* stack heading and cards vertically */
+    gap: 30px;               /* space between heading and cards */
+    padding: 10px 0;      /* optional top/bottom spacing */
+    margin-bottom: 100px;
+}
+
+.luxen_jersey {
+    width: 80%;
+    height: 850px;
+    border: 2px solid black;
+    background-image: url("../images/luxenjersey.png");
+    background-size: cover;
+}
+
+
 @media  screen and (max-width: 480px){
+
     main {
         flex: none;               /* stops stretching main */
         padding: 10px 10px;
@@ -171,6 +284,14 @@ main {
     .cards-title {
         text-align: center;
         margin: 10px 0;
+    }
+
+    .title_box, .jersey, .jersey1{
+        display: block;
+    }
+
+    .viren, .solen, .luxen{
+        width: 100%;
     }
 }
 }
